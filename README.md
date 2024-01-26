@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Machindranath Wagare
-- 👀 I’m interested in DevOps Learning!
-- 🌱 I’m currently learning Kubernetes!!
+- 👀 I’m interested in DevOps Learning and implementing!
+- 🌱 I’m currently implementing Kubernetes!!
 - 💞️ I’m looking to collaborate Open Sources Communities!!!
 - 📫 How to reach me ... machindra220@gmail.com
 

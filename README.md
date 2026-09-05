@@ -45,6 +45,9 @@ as a 16-part Medium article series.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
 ### 📝 Medium Article Series
 
@@ -67,10 +70,10 @@ as a 16-part Medium article series.
 Cloud          AWS (EKS, ECR, VPC, IAM, EC2)
 IaC            Terraform
 Containers     Docker, Kubernetes
-Observability  Datadog, APM, Metrics, Logs, Traces
+Observability  Datadog, APM, Metrics, Logs, Traces, Dashboards, Monitors
 CI/CD          GitHub Actions
 Languages      Python, Bash
-SRE Practices  SLIs, SLOs, Incident Management, Runbooks
+SRE Practices  SLIs, SLOs, Incident Management, Runbooks, Postmortems
 ```
 
 ---

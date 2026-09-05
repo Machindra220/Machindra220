@@ -26,8 +26,8 @@ as a 16-part Medium article series.
 | Phase 2 | AWS infrastructure with Terraform — VPC, EKS, ECR | ✅ Complete |
 | Phase 3 | Kubernetes deployment with LoadBalancer, HPA, health probes | ✅ Complete |
 | Phase 4 | GitHub Actions CI/CD pipeline — automated build, push, deploy | ✅ Complete |
-| Phase 5 | Datadog agent installation on EKS | 🔄 In Progress |
-| Phase 6 | Infrastructure + Kubernetes monitoring | ⏳ Planned |
+| Phase 5 | Datadog agent installation on EKS | ✅ Complete |
+| Phase 6 | Infrastructure + Kubernetes monitoring | 🔄 In Progress |
 | Phase 7 | Datadog APM — distributed tracing | ⏳ Planned |
 | Phase 8 | Centralized log collection | ⏳ Planned |
 | Phase 9 | Golden Signals dashboard | ⏳ Planned |

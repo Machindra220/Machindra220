@@ -28,10 +28,10 @@ as a 16-part Medium article series.
 | Phase 4 | GitHub Actions CI/CD pipeline — automated build, push, deploy | ✅ Complete |
 | Phase 5 | Datadog agent installation on EKS | ✅ Complete |
 | Phase 6 | Infrastructure + Kubernetes monitoring | ✅ Complete |
-| Phase 7 | Datadog APM — distributed tracing | 🔄 In Progress |
-| Phase 8 | Centralized log collection | ⏳ Planned |
-| Phase 9 | Golden Signals dashboard | ⏳ Planned |
-| Phase 10 | SLIs, SLOs, Error Budgets | ⏳ Planned |
+| Phase 7 | Datadog APM — distributed tracing | ✅ Complete |
+| Phase 8 | Centralized log collection | ✅ Complete |
+| Phase 9 | Golden Signals dashboard | ✅ Complete |
+| Phase 10 | SLIs, SLOs, Error Budgets | 🔄 In Progress |
 | Phase 11 | Alerting and monitors | ⏳ Planned |
 | Phase 12 | Incident automation | ⏳ Planned |
 | Phase 13 | Failure injection and incident response | ⏳ Planned |

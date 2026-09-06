@@ -27,8 +27,8 @@ as a 16-part Medium article series.
 | Phase 3 | Kubernetes deployment with LoadBalancer, HPA, health probes | ✅ Complete |
 | Phase 4 | GitHub Actions CI/CD pipeline — automated build, push, deploy | ✅ Complete |
 | Phase 5 | Datadog agent installation on EKS | ✅ Complete |
-| Phase 6 | Infrastructure + Kubernetes monitoring | 🔄 In Progress |
-| Phase 7 | Datadog APM — distributed tracing | ⏳ Planned |
+| Phase 6 | Infrastructure + Kubernetes monitoring | ✅ Complete |
+| Phase 7 | Datadog APM — distributed tracing | 🔄 In Progress |
 | Phase 8 | Centralized log collection | ⏳ Planned |
 | Phase 9 | Golden Signals dashboard | ⏳ Planned |
 | Phase 10 | SLIs, SLOs, Error Budgets | ⏳ Planned |

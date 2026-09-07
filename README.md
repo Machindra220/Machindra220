@@ -31,10 +31,10 @@ as a 16-part Medium article series.
 | Phase 7 | Datadog APM — distributed tracing | ✅ Complete |
 | Phase 8 | Centralized log collection | ✅ Complete |
 | Phase 9 | Golden Signals dashboard | ✅ Complete |
-| Phase 10 | SLIs, SLOs, Error Budgets | 🔄 In Progress |
-| Phase 11 | Alerting and monitors | ⏳ Planned |
-| Phase 12 | Incident automation | ⏳ Planned |
-| Phase 13 | Failure injection and incident response | ⏳ Planned |
+| Phase 10 | SLIs, SLOs, Error Budgets | ✅ Complete |
+| Phase 11 | Alerting and monitors | ✅ Complete |
+| Phase 12 | Incident automation | ✅ Complete |
+| Phase 13 | Failure injection and incident response | 🔄 In Progress |
 
 ### Tech Stack
 

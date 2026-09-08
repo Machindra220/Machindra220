@@ -3,22 +3,22 @@
 ## About Me
 
 I'm an IT/SRE/Cloud Operations professional with ~10 years of experience,
-currently building production-style SRE and observability platforms on AWS.
+building production-style SRE and observability platforms on AWS.
 
-- 🔭 Currently building a complete **SRE Observability Platform** on AWS EKS with Datadog
-- 🌱 Deep-diving into **Kubernetes, Terraform, and Datadog observability**
+- 🔭 Just completed a **16-phase SRE Observability Platform** on AWS EKS with Datadog
+- 🌱 Deep-dived into **Kubernetes, Terraform, Datadog, Chaos Engineering, and Incident Management**
 - 👀 Passionate about **DevOps, SRE practices, and Cloud Infrastructure**
 - 💞️ Looking to collaborate with **Open Source Communities**
 - 📫 Reach me at [machindra220@gmail.com](mailto:machindra220@gmail.com)
 
 ---
 
-## 🚀 Current Project — SRE Observability Platform on AWS EKS
+## 🚀 SRE Observability Platform on AWS EKS — Complete ✅
 
-Building a production-style end-to-end SRE observability platform documented
-as a 16-part Medium article series.
+A production-style end-to-end SRE observability platform built across 16 phases,
+documented as a 16-part Medium article series.
 
-### What's Been Built So Far
+### All 16 Phases Completed
 
 | Phase | Description | Status |
 |---|---|---|
@@ -26,15 +26,33 @@ as a 16-part Medium article series.
 | Phase 2 | AWS infrastructure with Terraform — VPC, EKS, ECR | ✅ Complete |
 | Phase 3 | Kubernetes deployment with LoadBalancer, HPA, health probes | ✅ Complete |
 | Phase 4 | GitHub Actions CI/CD pipeline — automated build, push, deploy | ✅ Complete |
-| Phase 5 | Datadog agent installation on EKS | ✅ Complete |
-| Phase 6 | Infrastructure + Kubernetes monitoring | ✅ Complete |
-| Phase 7 | Datadog APM — distributed tracing | ✅ Complete |
-| Phase 8 | Centralized log collection | ✅ Complete |
-| Phase 9 | Golden Signals dashboard | ✅ Complete |
+| Phase 5 | Datadog agent installation on EKS via Helm | ✅ Complete |
+| Phase 6 | Kubernetes infrastructure monitoring dashboard | ✅ Complete |
+| Phase 7 | Datadog APM — distributed tracing, flame graphs | ✅ Complete |
+| Phase 8 | Log-trace correlation — structured logs connected to APM traces | ✅ Complete |
+| Phase 9 | Golden Signals dashboard — Traffic, Latency, Errors, Saturation | ✅ Complete |
 | Phase 10 | SLIs, SLOs, Error Budgets | ✅ Complete |
-| Phase 11 | Alerting and monitors | ✅ Complete |
-| Phase 12 | Incident automation | ✅ Complete |
-| Phase 13 | Failure injection and incident response | 🔄 In Progress |
+| Phase 11 | Monitors and alerting — 5 monitors across P1/P2/P3 | ✅ Complete |
+| Phase 12 | Incident automation — monitor → auto-create SEV-1 incident | ✅ Complete |
+| Phase 13 | Chaos engineering — 4 failure scenarios, all monitors validated | ✅ Complete |
+| Phase 14 | Incident investigation — full IR methodology with Datadog | ✅ Complete |
+| Phase 15 | Datadog as Code — monitors, SLOs, dashboard via Terraform | ✅ Complete |
+| Phase 16 | Complete SRE platform summary | ✅ Complete |
+
+### What Was Built
+
+```text
+FastAPI App → Docker → ECR → EKS → Datadog Agent
+                                         |
+                              APM + Logs + K8s Metrics
+                                         |
+                              Golden Signals Dashboard
+                              SLOs (Availability + Latency)
+                              5 Monitors (P1–P3)
+                              Incident Automation
+                              Chaos Validation (4 scenarios)
+                              Datadog as Code (Terraform)
+```
 
 ### Tech Stack
 
@@ -49,15 +67,26 @@ as a 16-part Medium article series.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
 
-### 📝 Medium Article Series
+### 📝 Medium Article Series — All 16 Written
 
-*Documenting the complete journey — written after each phase is validated.*
-
-1. [Building a Lightweight FastAPI Service for Kubernetes Observability](#) 
-2. [Provisioning AWS EKS Infrastructure with Terraform](#)
-3. [Deploying a Containerized Application to AWS EKS](#)
-4. [From Git Push to EKS: Building a GitHub Actions CI/CD Pipeline](#)
-5. More articles coming as each phase completes...
+| # | Title | Status |
+|---|---|---|
+| 1 | Building a Lightweight FastAPI Service for Kubernetes Observability | ✅ Written |
+| 2 | Provisioning AWS EKS Infrastructure with Terraform | ✅ Written |
+| 3 | Deploying a Containerized Application to AWS EKS | ✅ Written |
+| 4 | From Git Push to EKS: Building a GitHub Actions CI/CD Pipeline | ✅ Written |
+| 5 | Installing Datadog on Kubernetes: Monitoring an EKS Cluster from Scratch | ✅ Written |
+| 6 | Monitoring Kubernetes Workloads with Datadog | ✅ Written |
+| 7 | Adding Datadog APM to a Kubernetes Application | ✅ Written |
+| 8 | Centralized Kubernetes Logging with Datadog | ✅ Written |
+| 9 | Implementing the Four Golden Signals with Datadog | ✅ Written |
+| 10 | From Metrics to Reliability: SLIs, SLOs and Error Budgets | ✅ Written |
+| 11 | Building Actionable Datadog Monitors Without Alert Fatigue | ✅ Written |
+| 12 | Automating Incident Creation from Datadog Alerts | ✅ Written |
+| 13 | Breaking Production on Purpose: Chaos Engineering on EKS | ✅ Written |
+| 14 | Debugging a Kubernetes Incident Using Datadog | ✅ Written |
+| 15 | Turning Observability into Code: Datadog with Terraform | ✅ Written |
+| 16 | Building a Complete SRE Observability Platform — End-to-End Summary | ✅ Written |
 
 📁 **Repository:**
 [sre-observability-eks-datadog](https://github.com/Machindra220/sre-observability-eks-datadog)
@@ -67,15 +96,16 @@ as a 16-part Medium article series.
 ## 🛠️ Skills
 
 ```text
-Cloud          AWS (EKS, ECR, VPC, IAM, EC2)
-IaC            Terraform
-Containers     Docker, Kubernetes
-Observability  Datadog, APM, Metrics, Logs, Traces, Dashboards, Monitors
+Cloud          AWS (EKS, ECR, VPC, IAM, EC2, Secrets Manager)
+IaC            Terraform (AWS + Datadog providers)
+Containers     Docker, Kubernetes, Helm
+Observability  Datadog — APM, Metrics, Logs, Dashboards, Monitors, SLOs, Incidents
 CI/CD          GitHub Actions
 Languages      Python, Bash
-SRE Practices  SLIs, SLOs, Incident Management, Runbooks, Postmortems
+SRE Practices  SLIs, SLOs, Error Budgets, Incident Management,
+               Chaos Engineering, Runbooks, Postmortems
 ```
 
 ---
 
-*This profile README is updated as the project progresses.*
+*16 phases. 16 articles. One complete SRE observability platform — built and documented end-to-end.*
